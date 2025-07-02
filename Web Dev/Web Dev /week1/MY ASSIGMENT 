@@ -1,0 +1,18 @@
+1. What is a libary in your own words 
+A libary is a colection of modules 
+
+2. What command do we use to start using a module in the python file 
+the import command 
+
+3. List of three bulit in Python modules?
+- random 
+- webbrowser 
+- turtle 
+- date time
+
+4. what is a module in your own words 
+A module is a Python file 
+
+5. State why libraries and modules are helpful in your own words 
+
+It helps solve are coding problems. Having premade tools makes faster and less complicated. Modules let your code be cleaner, more reusable, and more organized.
