@@ -7,13 +7,4 @@ menu = {
     "Avacado Toast": 15, 
 }
 
-for Key, item in menu.items():
-    
- 
-
-
-
-
-
-
-
+for Key, item in menu.items():()
