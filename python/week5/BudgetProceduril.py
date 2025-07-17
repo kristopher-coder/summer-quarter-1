@@ -21,9 +21,31 @@ def AddBudget(name, amount):
     expenses[name] = 0 
     return funds 
 
-print(funds)
-AddBudget("rent", 120) 
-AddBudget("rent", 500)
-print(budgets)
-print(expenses) 
-print(funds)
+def Spend(name, amount): 
+    if name not in expenses:
+        raise ValueError("Item not in budget") 
+    expenses[name] += amount
+    budgeted = budgets[name]
+    spent = expenses[name]
+    return budgeted - spent
+
+def printBudget():
+    for name in budgets:
+        Budgeted = budgets[name]
+        spent = expenses[name]
+        remainingBudgets = Budgeted - spent
+        print (f'') (name:15):(name) < Budgeted, spent, remainingBudgets
+
+
+print("Total funds:", funds)
+AddBudget("books", 100) 
+AddBudget("Rent",800) 
+AddBudget("Car note", 200) 
+
+
+
+Spend("Books", 50) 
+Spend("rent", 800) 
+Spend("car note", 200) 
+
+printBudget()

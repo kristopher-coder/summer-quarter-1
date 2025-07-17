@@ -16,10 +16,14 @@ body {
 #header{
     width: 100%; 
     height: 100vh; 
-    background-image: url(images/); 
-    background-size: auto;
+    background-image: url(images/Unknown.jpeg); 
+    background-size: cover;
     background-position: center; 
 } 
+
+.container {
+    padding: 27px 2%;
+}
 
 nav{
     display: flex; 
@@ -29,11 +33,11 @@ nav{
 }
 
 .logo{
-    width: 120px;
+    width: 250px;
 
 } 
 
- nav ul li{ 
+ nav ul li { 
     display:inline-block; 
     list-style: none; 
     margin: 10px 20px;
@@ -58,7 +62,23 @@ nav{
 }    
 
 .header-Text{ 
-    margin-top: 60px; 
-    font-size: 30px 
+    margin-top: 200px; 
+    font-size: 200px 
 
-}
+} 
+
+.header-Text h1{ 
+    font-size: 200px; 
+    margin-top: 200px;
+} 
+
+.header-Text h1 span{ 
+    color:black; 
+ } 
+
+ #about{ 
+    padding: 200px;px ; 
+    color: "ababab";
+ }
+ 
+ 
