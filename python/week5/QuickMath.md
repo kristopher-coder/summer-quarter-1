@@ -1,5 +1,5 @@
 1. Define what Object Oriented Programming is in your own words
-
+in my opioion i think that it is a orientaied progamming 
 
 2. How many pillars are there in OOP? Name all of them.
    the names of the 4 pillars are Abstraction,Polymorphism,Encasplulation and Inheritance
