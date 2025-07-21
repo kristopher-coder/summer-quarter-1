@@ -52,4 +52,3 @@ def IsValidmove(playermove):
 
 RPS() 
 
-.
