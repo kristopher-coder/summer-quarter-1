@@ -8,4 +8,5 @@ for snack in favsnacks:
     myColleges = ("Moore house", "Howard", "USC", "Stanford", "CCC")
     
     for college in myColleges: 
-        print(college)
+        print(college) 
+        .
