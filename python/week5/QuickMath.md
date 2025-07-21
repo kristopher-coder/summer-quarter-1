@@ -11,4 +11,4 @@ in my opioion i think that it is a orientaied progamming
    by using the class command
 
 5. What is the difference between a class and an object? 
-   an class is a blueprint and a object is made by a blueprint
+   an class is a blueprint and a object is made by a blueprint.

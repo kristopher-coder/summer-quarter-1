@@ -8,4 +8,4 @@ class Collection:
 
 
         self.movielist = movelists 
-        self.gamelist = gamelist 
+        self.gamelist = gamelist
