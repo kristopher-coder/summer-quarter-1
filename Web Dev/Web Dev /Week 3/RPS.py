@@ -50,4 +50,6 @@ def IsValidmove(playermove):
     else:
         return False 
 
-RPS()
+RPS() 
+
+.
