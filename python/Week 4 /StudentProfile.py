@@ -26,7 +26,6 @@ while hobby != "done":
     hobby = input ("Enter your studnets hobby; Type 'done': ").lower()
     hobbies.append(hobby) 
 
-student["Hobbies"] = hobbies 
+student["Hobbies"] = hobbies
 
-
-print(student)
+print(student).
