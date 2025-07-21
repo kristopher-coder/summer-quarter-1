@@ -22,6 +22,7 @@ dividend = calculator. Divide(12, 4)
 print(sum) 
 print(diffrence) 
 print(product)
-print(dividend)
+print(dividend) 
+
 
     
