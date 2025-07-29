@@ -1,89 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kris's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kris's portfolio</title>
+  <meta name="description" content="Kristopher Ross's personal portfolio - student, athlete, and aspiring developer from California." />
+  <link rel="stylesheet" href="style.css" />
+
 </head>
 <body>
-
-
-    <!-- Header Section -->
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="images/helloworld.png" class="logo" alt="Logo 1">
-                <img src="images/Unknown.jpeg" class="logo" alt="Logo 2">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-
-            <div class="header-text">
-                <p>Rich 9</p>
-                <h1>Hi, I'm <span>Kris</span><br>from San Ramon</h1>
-            </div>
-        </div>
-    </div>
-
-    <!-- About Section -->
-    <div id="about">
-        <div class="container">
-            <div class="about-col-1">
-                <!-- You can add an image or design here later -->
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>
-                   <!-- About Section -->
-<section id="about">
+  <!-- Header -->
+  <div id="header">
     <div class="container">
-        <div class="about-col-2">
-            <h2 class="sub-title">About Me</h2>
-            <p>
-                Hi, my name is Kris. I live in San Ramon and I’m 14 years old. I was born in Berkeley, and I love to read, play video games, and hang out with friends.
-            </p>
-            <p>
-                Some fun facts about me: I have two middle names, and I want to go to <strong>Morehouse College</strong> in Atlanta, Georgia, or <strong>LSU</strong>.
-            </p>
-        </div>
+      <nav>
+        <img src="images/helloworld.png"
+      </nav>
+        </ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <h1>Hi <span>I'm Kris</span><br>from Concord California</h1>
+      </div>
     </div>
-</section>
-
-                </p>
-
-                <div class="tab-titles">
-                    <p class="tab-links active-link">Skills</p>
-                    <p class="tab-links active-link">Experience</p>
-                    <p class="tab-links">Education</p>
-                </div>
-
-                <!-- Skills List -->
-                <div class="tab-contents">
-                    <ul>
-                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                        <li><span>Web Development</span><br>Web App Development</li>
-                        <li><span>App Development</span><br>Building Mobile Applications</li>
-                    </ul>         
-                </div>    
-            </div>                         
+  </div>
+  <!-- About -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">     
+        <img src="images/helloworld.png"
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+          <p>Hi im kris from I live in San Ramon, I am 14 years old, I play basket ball And soccer, I have 4 siblings And i have 2 Middle names.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab(event, 'Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab(event, 'Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>Chef</span><br>Cooking since I was 9 years old</li>
+              <li><span>Student</span><br>Doughtery Highschool Prep</li>
+              <li><span>Hidden Genius Project</span><br>Rich 9 Cohort</li>
+              <li><span>Athlete</span><br>Current Basketball player at Eldorado</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>2025 - Current</span><br>Current Teenager </li>
+              <li><span>2024 - Present</span><br>Rich 9 - Hidden Genius Project</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>El monte elamentry</span><br>GPA: 4.00</li>
+              <li><span>Eldorado Middle school</span><br>GPA: 3.50</li>
+              <li><span>Doughtery Highschool</span><br>GPA: To be detemined</li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+  <!-- Services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div class="service-col">
+                <i class="fa-solid fa-code"></i>
+                <h3>Python</h3>
+                <p>  A high-level programming language.<br>
+                </p>
+            </div>
+            <div class="service-col">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h3>Hidden Genius Project</h3>
+                <p>Trains and mentors Black male youth in tech, entrepreneurship, and leadership skills to transform their lives and communities.</p>
+            </div>
+            <div class="service-col">
+                <i class="fa-solid fa-database"></i>
+                <h3>Visual Studio Code</h3>
+                <p>A free code editor developed by Microsoft</p>
+            </div>
+      </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
+  <!-- Portfolio -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">What Has Hidden Genius taught you?</h1>
+      <div class="work-list">
+        <div class="work">
+          <div class="layer">
+            <h3>Through my time at The Hidden Genius Project, I've gained so much information about how to create a website,apps and a game. During the project I developed my leadership skills. I learned how to code, build apps, and think critically like an engineer, but also how to apply those skills to solve real problems through entrepreneurship.   </h3>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact -->
+  <div id="contact">
+    <div class="container">
+      <h1 class="sub-title">Contact Me</h1>
+      <div class="row">
+        <div class="contact-left">
+          <p><i class="fa-solid fa-paper-plane"></i> Kristopher.ross@hgs.hiddengeniusproject.org</p>
+          <p><i class="fa-solid fa-phone"></i> 510-332-9491</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-solid fa-inbox"></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form action="#">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" rows="6" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn2">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="copyright">
+    <p>Copyright &copy; 2024 Kristopher Ross. All Rights Reserved. <i class="fa-solid fa-heart"></i></p>
+  </div>
+  <!-- Script Section -->
+  <script>
+    function opentab(event, tabname) {
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      for (let i = 0; i < tabcontents.length; i++) {
+        tabcontents[i].classList.remove("active-tab");
+      }
+      for (let i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active-link");
+      }
+      document.getElementById(tabname).classList.add("active-tab");
+      event.currentTarget.classList.add("active-link");
+    }
+  </script>
 </body>
 </html>
 
@@ -106,80 +169,5 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body>
+</body>
 </html>
