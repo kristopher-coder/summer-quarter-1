@@ -7,4 +7,4 @@ the data type that we use is the string dta type
 
 
 3. Give an example of a software that requires user input to work. 
-an exanple of a software is microsoft
+an exanple of a software is microsoft 
